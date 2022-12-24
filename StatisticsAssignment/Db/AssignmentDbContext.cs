@@ -11,5 +11,10 @@ namespace StatisticsAssignment.Db
         }
 
         public DbSet<CountryData> CountryData { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+        }
     }
 }
